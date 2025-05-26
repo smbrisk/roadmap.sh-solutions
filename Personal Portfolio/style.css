@@ -1,0 +1,83 @@
+/*General*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #27548A;
+    color: #dda853;
+    
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Newsreader', 'serif';
+    font-size: 2rem;
+}
+
+p {
+    text-align: center;
+    font-family: 'Roboto', 'serif';
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+nav {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    margin-right: 5px;
+    font-family: 'Roboto', 'Serif';
+    font-size: 1.3rem;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+a:active {
+    color: #dda853;
+}
+
+a:visited {
+    color: #183b4e
+}
+
+/*Desktop*/
+@media (min-width: 600px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 2.5rem;
+    }
+
+    li {
+        font-size: 2rem;
+    }
+}
+
+
+
+
+
